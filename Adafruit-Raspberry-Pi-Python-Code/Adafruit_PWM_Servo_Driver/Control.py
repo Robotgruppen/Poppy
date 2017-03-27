@@ -15,7 +15,7 @@ def move():
   pwm.setPWM(8,0,fr)
   pwm.setPWM(9,0,gt)
   pwm.setPWM(10,0,hy)
-
+move()
 while True:
   i = msvcrt.getch()
   if i == 'a':
