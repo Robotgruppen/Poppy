@@ -54,5 +54,6 @@ while True:
   if i == 'y':
     if hy < 600:
 	  hy+=speed
+  move()
   if i == 'p'
     break
